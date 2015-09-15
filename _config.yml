@@ -12,8 +12,8 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://hsmt24.github.io
+root: /public
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,6 +68,6 @@ theme: casper
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: git@github.com:hsmt24/hsmt24.github.io.git
   branch: master
